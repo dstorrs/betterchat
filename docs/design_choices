@@ -1,0 +1,60 @@
+# Protocols
+We want to use open protocols, preferably ones that already have npm
+# modules built for them.
+
+Below are some system needs we must satisfy and options we could use
+# to fill them.  Please add other items that you like and put your
+# notes / votes inline below.
+
+
+------------------------------------------
+
+## Rendering
+### HTML5
+* haml-js ?
+
+### CSS
+* node-sass ?
+
+------------------------------------------
+
+## Video and Chat 
+### XMPP
+#### Options for Node Modules
+ 
+* node-xmpp (this is a suite of modules, one for client, one for server, etc)
+* simple-xmpp
+* simpler-xmpp
+* ...lots of options
+    
+#### Pros of XMPP
+* foo
+
+------------------------------------------
+
+#### Cons of XMPP
+* foo
+
+
+### RTMFP     
+#### Options for Node Modules
+ 
+* ArcusNode (in development)  https://github.com/OpenRTMFP/ArcusNode
+* Cumulus https://github.com/OpenRTMFP/Cumulus
+
+
+#### Pros of RTMFP
+* foo
+
+#### Cons of RTMFP
+* foo
+
+------------------------------------------
+
+## Data storage
+
+We could store data in a DB (PostgreSQL?  SQLite?) if we wanted to log
+## conversations / users / etc.  If and when we start supporting
+## passwords we would need a DB.  What database do people prefer?
+
+Not needed for MVP.
